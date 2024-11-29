@@ -1,0 +1,33 @@
+header {
+    padding: 0;
+}
+
+.flex-box {
+    background-color: blue;
+    height: 200px;
+    flex-direction: row;
+    color: aliceblue;
+
+}
+
+.child-1 {
+        margin:10px;
+        padding:10px;
+        background-color:#ff0000;
+        text-align: center;
+}
+.child-2 {
+    margin:10px;
+    padding:10px;
+    background-color:green;
+    text-align: center;
+}
+.child-3 {
+    margin:10px;
+    padding:10px;
+    background-color:yellow;
+    text-align: center;
+    color: black;
+    width: 100px;
+    
+}

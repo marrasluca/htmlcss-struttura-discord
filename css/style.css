@@ -36,7 +36,7 @@ header > .flex {
 
 /* inizio main */
 .container-80 {
-    width: 80px;
+    width: 700px;
     margin: 0% auto;
     text-align: center;
 }
@@ -47,12 +47,12 @@ section.bg-gray {
 }
 
 main section {
-    height: 80px;
+    height: 150px;
 }
 
 .flex-basis-60{
     flex-basis: 60%;
-    height: 60px;
+    height: 100px;
 }
 
 .flex-basis-40 {
@@ -61,11 +61,18 @@ main section {
 
 .container-80 .flex{
     justify-content: center;
+    
+}
+
+.container-flex{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 
  /* inizio footer */
- footer.flex div{
+ footer .flex div{
     flex-basis: calc((100%) / 5);
     height: 50px;
     color: aliceblue;

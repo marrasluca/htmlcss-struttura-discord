@@ -1,10 +1,6 @@
 header {
     padding: 0;
-    font-family: sans-serif;
-}
-
-html{
-    line-height: 160px;
+    
 }
 
 .flex-box {
@@ -99,4 +95,18 @@ html{
 
  h1 {
     text-align: center;
+ }
+
+ footer.flex div{
+    flex-basis: calc((100%) / 5);
+    height: 50px;
+    background-color:;
+ }
+
+ footer .flex div:first-child{
+    flex-basis: 25%;
+ }
+
+ footer {
+    background-color: #23272A;
  }
